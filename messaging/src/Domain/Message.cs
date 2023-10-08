@@ -1,6 +1,4 @@
-using Messaging.Domain.Interfaces;
-
-namespace Messaging.Domain.Entities
+namespace Messaging.Domain
 {
     public class Message
     {

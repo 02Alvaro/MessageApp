@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-using Messaging.Domain.Entities;
-
-namespace Messaging.Domain.Repositories
+namespace Messaging.Domain
 {
-    public interface IMessageRepository
+    public interface MessageRepository
     {
         Task<Message> GetById(Guid id);
         Task<IEnumerable<Message>> GetAll();

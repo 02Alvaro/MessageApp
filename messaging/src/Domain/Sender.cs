@@ -1,4 +1,4 @@
-namespace Messaging.Domain.Interfaces
+namespace Messaging.Domain
 {
     public interface Sender
     {
