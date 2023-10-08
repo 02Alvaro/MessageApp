@@ -37,7 +37,7 @@ namespace Messaging.Application.Services
             await _messageRepository.Delete(id);
         }
 
-        public async Task<Message> GetMessageByd(Guid id)
+        public async Task<Message> GetMessageById(Guid id)
         {
             return await _messageRepository.GetById(id);
         }

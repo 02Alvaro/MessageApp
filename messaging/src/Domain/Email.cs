@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace Messaging.Domain.ValueObjects
+namespace Messaging.Domain
 {
     public class Email : Recipient, Sender
     {
