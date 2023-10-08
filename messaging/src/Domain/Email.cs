@@ -1,4 +1,3 @@
-using System;
 using System.Text.RegularExpressions;
 
 namespace Messaging.Domain.ValueObjects
